@@ -1,0 +1,59 @@
+body {
+    margin: 0 auto;
+    padding: 0; 
+}
+
+.header {
+	background-color: #00c3b5;
+}
+.number, .icon-header  {
+	color: #FFF;
+	font-size: 16px;
+}
+.header-nav-second{
+	height: 600px;
+	background-image: url('img/ConcentraGroup-000.jpg');
+}
+
+.nav {
+	width: 100%;
+	position: -webkit-sticky;
+	top: 45px;
+	z-index: 1;
+	padding: 10px;
+}
+.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 50px;
+	color: #fff;
+	font-size: 16px;
+	font-family: sans-serif;
+	border-radius: 10px;
+	transition: -5s; 
+	margin-top:50px; 
+}
+
+.nav ul li:hover{
+	background-color:#00c3b5;
+	color: #fff;
+}
+.sticky {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 100;
+    background-color: #00c3b5;
+    color: #fff;
+    text-align: right;
+}
+
+.sticky ul li{
+	background-color:#00c3b5;
+	color: #fff;
+}
+.sticky ul li:hover{
+	background-color:#fff;
+	color: #00c3b5;
+}
